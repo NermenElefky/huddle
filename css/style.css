@@ -38,8 +38,9 @@ button{
 main {
     width:100%;
     min-height: 100vh;
-    background: url("/images/bg-hero-desktop.svg");
+    background: url("../images/bg-hero-desktop.svg");
     padding: 25px 70px;
+    background-color: hsl(193, 100%, 96%);
 }
 @media (max-width:1199px) and (min-width:768px) {
     main{
@@ -48,8 +49,9 @@ main {
 }
 @media (max-width:767px) {
     main{
-        background: url("/images/bg-hero-mobile.svg");
+        background: url("../images/bg-hero-mobile.svg");
         padding: 25px 9px;
+        background-color: hsl(193, 100%, 96%);
     }
 }
 header {
